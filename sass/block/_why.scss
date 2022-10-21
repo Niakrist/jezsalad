@@ -1,0 +1,33 @@
+.who {
+  padding-top: 120px;
+}
+
+.choose__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {  
+    width: 61%;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #585858;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    span {
+      color: #FB9333;
+    }
+  }
+
+  p {
+    width: 39%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.8;
+    letter-spacing: -0.02em;
+    color: #828282;
+  }
+
+}

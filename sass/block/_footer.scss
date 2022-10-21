@@ -1,0 +1,138 @@
+.footer {
+  margin-bottom: 100px;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.footer__copy {
+  max-width: 212px;
+}
+
+.footer__log {
+  display: inline-block;
+  margin-bottom: 19px;
+  font-size: 24px;
+  line-height: 1.667;
+  font-weight: 900;
+  line-height: 28px;
+  color: #FB9333;
+
+  span {
+    color: #585858;
+  }
+}
+
+.footer__copy-info {
+  margin-bottom: 76px;
+  line-height: 1.6;
+}
+
+.footer__copy-copy {
+  color: #2B2B2B;
+}
+
+.footer__nav {
+  max-width: 75px;
+}
+
+.footer__item-title {
+  margin-bottom: 27px;
+  font-weight: 600;
+  line-height: 1.38px;
+  color: #FB9333;
+}
+
+.footer__nav-link {
+  display: inline-block;
+  margin-top: 24px;
+
+  &:hover {
+    color: #FB9333;
+  }
+}
+
+.footer_adress {
+  max-width: 240px;
+}
+
+.footer-adress {
+  display: inline-block;
+  margin-top: 27px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 40px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('./../src/img/location_on.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.footer-mail {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 40px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('./../src/img/email.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.footer-tel {
+  position: relative;
+  padding-left: 40px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('./../src/img/call.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.footer__soc {
+max-width: 200px;
+}
+
+.footer__soc-link {
+  margin-bottom: 26px;
+  display: flex;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.instagram {
+
+}
+
+.linkedin {}
+
+.twitter {}
+
+.footer__soc-text {
+  
+}

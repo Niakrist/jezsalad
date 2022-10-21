@@ -1,0 +1,68 @@
+.menu {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+
+.menu__content {
+  text-align: center;
+
+}
+
+.menu__content-description {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FB9333;
+}
+
+.menu__content-title {
+  max-width: 732px;
+  margin: 0 auto 71px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #585858;
+  
+  span {
+    color: #FB9333;
+  }
+}
+
+.menu__cards {
+  display: flex;
+  column-gap: 30px;
+}
+
+.menu__card-item {
+  position: relative;
+
+  img {
+    border-radius: 50px;
+  }
+  
+}
+
+.menu__cards-info {
+  left: 40px;
+  bottom: 10px;
+  position: absolute;
+  line-height: 1.3;
+  color: #FFFFFF;
+
+}
+
+.menu__cards-name {
+  // margin-bottom: 6px;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+.menu__cards-price {
+  font-size: 40px;
+  font-weight: 700;
+}

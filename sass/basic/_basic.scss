@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+  font-family: Poppins, sans-serif;
+  color: $accent-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-right {
+  max-width: unset;
+  padding-left: calc((100% - 1200px) /2 + 15px);
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+}
