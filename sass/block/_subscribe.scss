@@ -1,10 +1,6 @@
 .subscribe {
   padding-bottom: 160px;
-  
-
-
-
-}
+  }
 
 .subscribe__content {
   padding: 48px 0 96px;
@@ -13,7 +9,6 @@
   background-color: #FFF8ED;
   border-radius: 50px;
   position: relative;
-
 
   &::after {
     content: '';
@@ -47,7 +42,6 @@
   color: #585858;
   z-index: 1;
   position: relative;
-
 }
 
 .subscribe__content-text {
@@ -58,5 +52,4 @@
   color: rgba(87, 87, 87, 0.7);
   z-index: 1;
   position: relative;
-
 }
